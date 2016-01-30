@@ -15,17 +15,22 @@
 }
 ul.a {list-style-type: circle;
 }
-A:hover {text-decoration: underline; color: green;
+A:visited { text-decoration: none; color: green;
+} 
+A:hover {text-decoration: underline; color: black;
 } 
 #contact_photo {height: 250px;
 	width: 250px;
 	margin-top:60px;
+}
+.contact_info {font-size: 16pt;
+	text-align: left;
 }
 .contact_header {height: 40px;
 	width: auto;
 	margin:40px;
     text-align: left;
 }
-.contact_info {font-size: 16pt;
+.contact_info1 {font-size: 16pt;
 	text-align: left;
 }
