@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+.logo img {margin: 10px;
+	width: 80px;
+	height: 80px;
+}
+.custom_header {height: 50px;
+	margin-left:40px;
+    color: #79B3;
+    text-align: left;
+}
+.custom_content {font-size: 12pt;
+	margin-left:40px;
+	font-family: "Arial";
+	text-align: left;
+}
+ul.a {list-style-type: circle;
+}
+A:visited { text-decoration: none; color: green;
+} 
+A:hover {text-decoration: underline; color: black;
+} 
+#contact_photo {height: 250px;
+	width: 250px;
+	margin-top:60px;
+}
+.contact_header {height: 40px;
+	width: auto;
+	margin:40px;
+    text-align: left;
+}
+.contact_info {font-size: 16pt;
+	font-family: "Arial";
+	text-align: left;
+}
