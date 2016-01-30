@@ -11,14 +11,11 @@
 }
 .custom_content {font-size: 12pt;
 	margin-left:40px;
-	font-family: "Arial";
 	text-align: left;
 }
 ul.a {list-style-type: circle;
 }
-A:visited { text-decoration: none; color: green;
-} 
-A:hover {text-decoration: underline; color: black;
+A:hover {text-decoration: underline; color: green;
 } 
 #contact_photo {height: 250px;
 	width: 250px;
@@ -30,6 +27,5 @@ A:hover {text-decoration: underline; color: black;
     text-align: left;
 }
 .contact_info {font-size: 16pt;
-	font-family: "Arial";
 	text-align: left;
 }
