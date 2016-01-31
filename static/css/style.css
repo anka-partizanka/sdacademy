@@ -34,3 +34,30 @@ A:hover {text-decoration: underline; color: black;
 .contact_info1 {font-size: 16pt;
 	text-align: left;
 }
+
+.students_header {height: 50px;
+	margin-top:40px;
+    text-align: left;
+}
+.students_content {font-size: 15pt;
+	text-align: left;
+}
+.table { margin-top:20px;
+	margin-bottom:20px;
+}
+thead {
+    background: #EEEED1;
+}
+.student_name {height: 40px;
+    text-align: left;
+}
+#student_photo {height: 250px;
+	width: 250px;
+	margin:20px;
+}
+.student_card {width: 600px;
+	height: 300px;
+    margin: left;
+	font-family: Tahoma;
+	text-align: left;
+}
