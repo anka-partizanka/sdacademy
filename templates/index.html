@@ -7,8 +7,9 @@
     <title>SDAcademy Main</title>
 
     <!-- Bootstrap -->
-    <link href="../static/css/bootstrap.css" rel="stylesheet">
-    <link href="../static/css/style.css" rel="stylesheet">
+ 	{% load staticfiles %}
+	<link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+	<link href="{% static 'css/style.css' %}" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,9 +25,9 @@
       </div>
         <nav>
             <ul class="nav nav-tabs">
-                <li role="presentation" class="active"><a href="#">Main</a></li>
-                <li role="presentation"><a href="contact.html">Contacts</a></li>
-                <li role="presentation"><a href="student_list.html">Students</a></li>
+			<li class="active"><a href="{% url 'index' %}">Main</a></li>
+            <li><a href="{% url 'contact' %}">Contacts</a></li>
+            <li><a href="{% url 'student_list' %}">Students</a></li>
             </ul>
         </nav>
     <div class="custom_header">
@@ -111,7 +112,7 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="../static/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
    </div>
   </body>
 </html>
